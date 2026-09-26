@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân</title>
+</head>
+<body>
+    <!-- 
+      <header>: Phần đầu trang. 
+      Vai trò: Thường chứa logo, tiêu đề chính của trang và thanh điều hướng. 
+    -->
+    <header>
+        <h1>Portfolio - Lập trình viên Web</h1>
+        
+        <!-- 
+          <nav>: Thẻ điều hướng (Navigation).
+          Vai trò: Chứa các liên kết chính giúp người dùng di chuyển giữa các phần hoặc các trang khác nhau trong website.
+        -->
+        <nav>
+            <ul>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 
+      <main>: Nội dung chính của trang.
+      Vai trò: Bao bọc toàn bộ nội dung cốt lõi của tài liệu. Mỗi trang chỉ nên có một thẻ <main> và không nằm trong các thẻ như <header>, <footer>, <nav> hay <aside>.
+    -->
+    <main>
+        
+        <!-- 
+          <section>: Phân vùng nội dung.
+          Vai trò: Đại diện cho một phần độc lập của tài liệu, thường có tiêu đề (heading) riêng biệt để nhóm các nội dung liên quan (ví dụ: Phần giới thiệu).
+        -->
+        <section id="about">
+            <h2>Giới thiệu bản thân</h2>
+            <p>Xin chào, tôi là một Lập trình viên Web (Web Developer) với niềm đam mê xây dựng các giao diện người dùng trực quan và thân thiện. Tôi luôn mong muốn được áp dụng các công nghệ mới nhất để giải quyết các bài toán thực tế, đồng thời tạo ra những sản phẩm mang lại giá trị cao cho người sử dụng. Mục tiêu của tôi là phát triển các ứng dụng web tốc độ cao, tối ưu hóa trải nghiệm (UX/UI) và có tính bảo mật tốt.</p>
+        </section>
+
+        <!-- Section thứ hai: Phần kỹ năng -->
+        <section id="skills">
+            <h2>Kỹ năng chuyên môn</h2>
+            <p>Tôi có nền tảng vững chắc và kinh nghiệm thực tế với các ngôn ngữ lập trình lõi như HTML5, CSS3, và JavaScript. Tôi cũng thành thạo việc sử dụng các framework và thư viện hiện đại (như React, VueJS, Bootstrap, Tailwind CSS) để tăng tốc độ phát triển. Ngoài ra, tôi luôn tuân thủ nguyên tắc thiết kế Responsive để website có thể hiển thị hoàn hảo trên mọi kích thước màn hình.</p>
+        </section>
+
+        <!-- Section thứ ba: Danh sách dự án -->
+        <section id="projects">
+            <h2>Dự án nổi bật</h2>
+            
+            <!-- 
+              <article>: Bài viết hoặc thành phần độc lập.
+              Vai trò: Chứa nội dung có ý nghĩa trọn vẹn, có thể đứng độc lập và mang đi phân phối (ví dụ: một bài blog, một mô tả dự án cụ thể).
+            -->
+            <article>
+                <h3>Hệ thống Quản lý Bán hàng</h3>
+                <p>Một ứng dụng web SaaS giúp các doanh nghiệp vừa và nhỏ quản lý kho bãi, theo dõi đơn hàng và doanh thu. Trong dự án này, tôi đóng vai trò xây dựng giao diện trang quản trị (Dashboard), tích hợp các biểu đồ phân tích dữ liệu trực quan và xử lý các thao tác tương tác phức tạp của người dùng ở phía Front-end.</p>
+            </article>
+
+            <article>
+                <h3>Website Thương mại điện tử</h3>
+                <p>Dự án xây dựng một nền tảng mua sắm trực tuyến với giao diện hiện đại và tốc độ tải trang nhanh chóng. Tôi đã tham gia phát triển trang chủ, danh sách sản phẩm, bộ lọc tìm kiếm nâng cao và quy trình thanh toán (Checkout) mượt mà, giúp tăng tỉ lệ chuyển đổi của khách hàng.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- 
+      <footer>: Phần chân trang.
+      Vai trò: Thường chứa các thông tin như bản quyền tác giả, liên kết đến mạng xã hội, hoặc thông tin liên hệ.
+    -->
+    <footer>
+        <p>&copy; 2026 Bản quyền thuộc về Lập trình viên Web. Mọi quyền được bảo lưu.</p>
+        <p>Liên hệ: laptrinhvien.web@email.com | Điện thoại: 0987.654.321</p>
+    </footer>
+</body>
+</html>
